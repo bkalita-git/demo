@@ -4,7 +4,7 @@ this demo project based on this [postman document](https://documenter.getpostman
 
 1. Clone this repo and create a python virtual env in 'demo/invoice-demo'
 ```
-git clone git@github.com/bkalita-git/demo.git && cd demo/invoice-demo && python -m venv venv
+git clone git@github.com:bkalita-git/demo.git && cd demo/invoice-demo && python -m venv venv
 ```
 2. Activate the environment
 ```
