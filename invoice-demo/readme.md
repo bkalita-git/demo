@@ -41,8 +41,8 @@ curl --request GET 'http://127.0.0.1:8000/generate-transactions/'
 curl --request GET 'localhost:8000/purchase-list'
 ```
 ```
-curl --request GET 'localhost:8000/search-transactions?awb_no=392978'
+curl --request GET 'localhost:8000/search-transactions?awb_no=543749'
 ```
 ```
-curl --request GET 'localhost:8000/search-transactions?txn_id=1001'
+curl --request GET 'localhost:8000/search-transactions?txn_id=4444'
 ```
