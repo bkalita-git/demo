@@ -14,8 +14,7 @@ def verify_jwt(request: Request):
 		except:
 			raise HTTPException(status_code=404, detail = "Invalid Token")
 			
-@router.post('/upload/')
-#Depends(verify_jwt)
+@router.post('/upload/',dependencies=[Depends(verify_jwt)])
 def upload_csv(file: UploadFile = File(...)):
 	data = csv.DictReader(codecs.iterdecode(file.file,'utf-8'),delimiter=',')
 	for line in data:
