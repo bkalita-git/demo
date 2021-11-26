@@ -1,5 +1,6 @@
 
 this demo project based on this [postman document](https://documenter.getpostman.com/view/17779018/UVCB943R)
+`Note: I considered that one transaction id can have multiple items related. so doing it as many to one relationship`
 
 1. Clone this repo and create a python virtual env in 'demo/invoice-demo'
 ```
